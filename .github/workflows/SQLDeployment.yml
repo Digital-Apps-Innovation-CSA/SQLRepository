@@ -2,6 +2,10 @@ name: Database Deployment
 
 on:
   workflow_dispatch:
+  push:
+    branches: [ "main" ]
+    paths:
+      - SQLDataBaseProject/**
   
 jobs:
   build :
