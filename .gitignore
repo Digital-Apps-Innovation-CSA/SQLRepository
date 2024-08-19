@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/SQLDataBaseProject/obj/Debug
+/SQLDataBaseProject/SQLDataBaseProject.sqlproj.user
+/.vs/SQLDataBaseProject/FileContentIndex
+/.vs/SQLDataBaseProject/v17
+/SQLDataBaseProject/bin/Debug
