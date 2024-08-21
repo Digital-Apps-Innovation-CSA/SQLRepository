@@ -70,16 +70,6 @@
   <ItemGroup>
     <Build Include="dbo\Tables\ErrorLog.sql" />
     <Build Include="dbo\Tables\BuildVersion.sql" />
-    <Build Include="SalesLT\Tables\SalesOrderHeader.sql" />
-    <Build Include="SalesLT\Tables\SalesOrderDetail.sql" />
-    <Build Include="SalesLT\Tables\CustomerAddress.sql" />
-    <Build Include="SalesLT\Tables\Address.sql" />
-    <Build Include="SalesLT\Tables\ProductCategory.sql" />
-    <Build Include="SalesLT\Tables\ProductModelProductDescription.sql" />
-    <Build Include="SalesLT\Tables\Product.sql" />
-    <Build Include="SalesLT\Tables\ProductDescription.sql" />
-    <Build Include="SalesLT\Tables\ProductModel.sql" />
-    <Build Include="SalesLT\Tables\Customer.sql" />
     <Build Include="SalesLT\Views\vGetAllCategories.sql" />
     <Build Include="SalesLT\Views\vProductAndDescription.sql" />
     <Build Include="SalesLT\Views\vProductModelCatalogDescription.sql" />
@@ -96,5 +86,15 @@
     <Build Include="dbo\User Defined Types\AccountNumber.sql" />
     <Build Include="Security\SalesLT.sql" />
     <Build Include="SalesLT\Sequences\SalesOrderNumber.sql" />
+    <Build Include="SalesLT\Tables\SalesOrderHeader.sql" />
+    <Build Include="SalesLT\Tables\SalesOrderDetail.sql" />
+    <Build Include="SalesLT\Tables\ProductModelProductDescription.sql" />
+    <Build Include="SalesLT\Tables\ProductModel.sql" />
+    <Build Include="SalesLT\Tables\ProductDescription.sql" />
+    <Build Include="SalesLT\Tables\ProductCategory.sql" />
+    <Build Include="SalesLT\Tables\Product.sql" />
+    <Build Include="SalesLT\Tables\CustomerAddress.sql" />
+    <Build Include="SalesLT\Tables\Customer.sql" />
+    <Build Include="SalesLT\Tables\Address.sql" />
   </ItemGroup>
 </Project>
